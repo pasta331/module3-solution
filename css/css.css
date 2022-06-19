@@ -1,6 +1,6 @@
 body {
-  font-family: 'Cantarell', sans-serif; 
-  
+  font-family: 'Cantarell', sans-serif;  
+  box-sizing: border-box; 
 }  
 
 #main {
@@ -10,9 +10,8 @@ body {
 
 #header-nav {
   background-color: grey;
-  
-
 }
+
 
 .navbar-default .navbar-brand {
   color: black;
@@ -23,6 +22,11 @@ body {
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
 }
+
+#nav-list {
+  background-color: white;
+}
+
 #nav-list a {
   color: black;
   text-align: center;
@@ -33,12 +37,16 @@ body {
 #nav-list a:hover {
 background: #E7E7E7;
   }
+
+
   
 #main-content {
   padding: 20px 10px 20px auto;
   border: 2px solid black;
   background-color: grey;
   color: black;
+  
+  
   
   }
 
@@ -48,3 +56,7 @@ h2 {
   }
 
   
+
+#link:hover {
+text-decoration: none;
+}
